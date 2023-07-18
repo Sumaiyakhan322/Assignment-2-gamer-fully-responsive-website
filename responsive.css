@@ -1,5 +1,9 @@
 /* mobile phone responsive */
 @media screen and (max-width:576px){
+    body{
+        max-width: 400px;
+        margin: auto;
+    }
     nav,.nav-links{
         flex-direction: column;
         width: 100%;
@@ -9,6 +13,46 @@
     .nav-logo{
         margin: auto;
     }
+    .banner{
+       flex-direction: column-reverse;
+       
+       
+       margin: auto;
+    }
+    .banner-content,.banner-img{
+        width: 100%;
+       
+    }
+    .banner-container{
+       padding:60px 40px;
+      
+    }
+    
+    
+    
+    
+    
+    .banner-content h2{
+        font-size: 1.2rem;
+    }
+    .banner-content h1{
+        font-size: 3rem;
+    }
+    .banner-content p{
+        font-size:1rem ;
+        
+    }
+    .btn-primary{
+        padding:1.2rem 2.2rem;
+        border-radius:25px;
+        color: #FFF;
+        font-size: 1rem;
+       font-weight: 600;
+       text-transform: uppercase;
+       border: none;
+       margin-top: 20px;
+    }
+    
 }
 
 
@@ -16,6 +60,10 @@
 
 /* tablet responsive */
 @media screen and (min-width:576px)  and (max-width:992px){
+    body{
+        max-width:600px ;
+        margin: auto;
+    }
     nav{
         flex-direction: column;
         width: 100%;
@@ -29,4 +77,20 @@
     .nav-logo{
         margin: auto;
     }
+    .banner{
+        flex-direction: column-reverse;
+        margin: auto;
+     }
+     .banner-content,.banner-img{
+         width: 100%;
+        
+     }
+     .banner-container{
+        padding:80px;
+       
+     }
+     
+     
+     
+
 }
