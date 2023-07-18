@@ -1,0 +1,32 @@
+/* mobile phone responsive */
+@media screen and (max-width:576px){
+    nav,.nav-links{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 30px;
+    }
+    .nav-logo{
+        margin: auto;
+    }
+}
+
+
+
+
+/* tablet responsive */
+@media screen and (min-width:576px)  and (max-width:992px){
+    nav{
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        gap: 30px;
+    }
+    .nav-links{
+       width: 100%;
+       margin: auto;
+    }
+    .nav-logo{
+        margin: auto;
+    }
+}
