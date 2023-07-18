@@ -251,7 +251,49 @@ margin: 20px 0px;
     border-radius:50px;
     color:  #FF42A5;
 }
+/* footer style */
+footer{
+    background-color: #0B0223;;
+}
+ h2 {
+    color: white;
+    font-size: 3rem;
+}
+.footer-content h2{
+    color: #FFF;
+    
+    font-size:1.2rem;
+  
+    font-weight: 600;}
+/* .footer-icons i{
 
+} */
+.footer-terms p{
+    color: rgba(255, 255, 255, 0.60);
+    
+    
+    font-size:1rem;
+   
+    font-weight: 500;
+    
+}
+.footer-copy-wright{
+    color: rgba(255, 255, 255, 0.60);
+    
+   
+    font-size:1rem;
+    
+    font-weight: 500;
+   
+    
+}
+.footer-title{
+
+font-size: 2.4rem;
+
+font-weight: 700;
+
+}
 
 
 
