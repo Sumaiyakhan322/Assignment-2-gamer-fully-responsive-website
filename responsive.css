@@ -1,7 +1,7 @@
 /* mobile phone responsive */
 @media screen and (max-width:576px){
-    body{
-        max-width: 400px;
+    main,.banner{
+        max-width:380px;
         margin: auto;
     }
     nav,.nav-links{
@@ -19,14 +19,19 @@
        
        margin: auto;
     }
-    .banner-content,.banner-img{
+     .banner-content{
         width: 100%;
        
-    }
-    .banner-container{
+    } 
+     .banner-container{
        padding:60px 40px;
+       
       
+    } 
+    .banner-img{
+        width: 100%;
     }
+   
     
     
     
@@ -52,7 +57,11 @@
        border: none;
        margin-top: 20px;
     }
+    .online-games-img-container{
+        
+        grid-template-columns: repeat(1,1fr);
     
+}
 }
 
 
@@ -89,6 +98,11 @@
         padding:80px;
        
      }
+     .online-games-img-container{
+        
+        grid-template-columns: repeat(2,1fr);
+    
+}
      
      
      

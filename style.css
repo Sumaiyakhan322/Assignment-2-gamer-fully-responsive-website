@@ -29,9 +29,25 @@ body{
 .title{
 color: #0B0223;
 font-size:3rem;
-
 font-weight: 700;
 line-height: normal;
+margin: 3rem;
+}
+.colorfull-title{
+background: linear-gradient(to bottom, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-size: 3rem;
+font-weight: 700;
+
+}
+.description{
+color: #534C64;
+font-size: 1.2rem;
+font-weight: 400;
+line-height: 30px;
+ margin-bottom: 3rem;
 }
 /* banner-section */
  /* nav-section style */
@@ -128,7 +144,7 @@ margin: 20px 0px;
 .banner-content i{
     margin-right: 10px;
 }
-/* online img style */
+/* online games style */
 .online-games-img-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -144,4 +160,14 @@ margin: 20px 0px;
 .online-games-content{
     text-align: center;
 }
-
+.online-games{
+    margin:5.5rem 0px;
+}
+.online-img-content p{
+    color: #534C64;
+   
+    font-size:1.25rem;
+    
+    font-weight: 500;
+    line-height: 30px; /* 150% */
+}
