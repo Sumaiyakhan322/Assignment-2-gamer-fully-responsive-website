@@ -26,6 +26,13 @@ body{
 .blue-btn{
     background-color: #4EC5F7;
 }
+.title{
+color: #0B0223;
+font-size:3rem;
+
+font-weight: 700;
+line-height: normal;
+}
 /* banner-section */
  /* nav-section style */
  nav{
@@ -121,3 +128,20 @@ margin: 20px 0px;
 .banner-content i{
     margin-right: 10px;
 }
+/* online img style */
+.online-games-img-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    
+    
+}
+.online-img-content img{
+    width: 100%;
+    
+   
+}
+.online-games-content{
+    text-align: center;
+}
+
