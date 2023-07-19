@@ -107,6 +107,9 @@ gap: 16px;
 .banner{
     display: flex;
     gap: 2.5rem;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0px auto;
 }
 .banner-content{
     background-image: url('./images/Group\ 14.png');
@@ -296,7 +299,7 @@ footer{
     
 }
 .footer-content{
-   width: 60%;
+   max-width:800px ;
    margin: auto;
 }
 
