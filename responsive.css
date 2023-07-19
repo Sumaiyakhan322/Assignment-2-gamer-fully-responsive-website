@@ -1,14 +1,29 @@
 /* mobile phone responsive */
 @media screen and (max-width:576px){
-    main,.banner,.games,.online-games-anytime{
+    main,.banner,.games,.online-games-anytime,.nav{
         max-width:380px;
         margin: auto;
     }
-    .nav{
-        margin: auto;
-        max-width: 380px;
+    .online-games, .online-games-anytime, .games{
+        margin: 5rem  0rem;
     }
+    /* common styles */
+    .title{
+        font-size:2.5rem;
+        margin-bottom: 2.5rem;
+        }
+        .colorfull-title{
+        font-size: 2.5rem;
+        font-weight: 700;
         
+        }
+        .description{
+        color: #534C64;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 30px;
+         margin-bottom: 3rem;
+        }
     .nav,.nav-links{
         flex-direction: column;
         width: 100%;
@@ -21,29 +36,15 @@
     }
     .banner{
        flex-direction: column-reverse;
-       
-       
-       margin: auto;
+       margin: 5rem auto;
     }
-     .banner-content{
+     .banner-content,.banner-img{
         width: 100%;
-       
-    } 
+       } 
      .banner-container{
        padding:60px 40px;
-       
-      
-    } 
-    .banner-img{
-        width: 100%;
-    }
-   
-    
-    
-    
-    
-    
-    .banner-content h2{
+       } 
+   .banner-content h2{
         font-size: 1.2rem;
     }
     .banner-content h1{
@@ -56,18 +57,48 @@
     .btn-primary{
         padding:1.2rem 2.2rem;
         border-radius:25px;
-        color: #FFF;
         font-size: 1rem;
-       font-weight: 600;
-       text-transform: uppercase;
-       border: none;
-       margin-top: 20px;
-    }
+       }
     .online-games-img-container{
-        
         grid-template-columns: repeat(1,1fr);
     
 }
+.online-games-anytime{
+    flex-direction: column-reverse;
+}
+.online-games-anytime-img{
+    width: 100%;
+    position: relative;
+    
+}
+.upper-img{
+width: 80%;
+margin: auto;
+
+}
+.upper-img img{
+    width: 100%;
+
+}
+.lower-img{
+position: absolute;
+top:65%;
+left:70%;
+width: 30%;
+
+}
+.lower-img img{
+    width: 100%;
+}
+.online-games-anytime-content{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.online-img-description{
+    font-size: 1.2rem;
+   text-align: center;
+   }
 
 .games-container{
      display: grid;
@@ -75,10 +106,7 @@
      gap: 10px;
      width: 100%;
      padding: 0px 10px;
-
 }
-
-
 .games-content{
     gap: 5px;
     padding: 05px;
@@ -126,63 +154,6 @@ footer{
 .footer-copy-right{
 font-size: 0.7rem;
 }
-.online-games-anytime{
-    flex-direction: column-reverse;
-}
-.online-games-anytime-img{
-    width: 100%;
-    position: relative;
-    
-}
-.upper-img{
-width: 80%;
-margin: auto;
-
-}
-.upper-img img{
-    width: 100%;
-
-}
-.lower-img{
-position: absolute;
-top:65%;
-left:70%;
-width: 30%;
-
-}
-.lower-img img{
-    width: 100%;
-}
-.online-games-anytime-content{
-    width: 100%;
-    margin: auto;
-    text-align: center;
-}
-.title{
-    
-    font-size:2.5rem;
-    margin-bottom: 2.5rem;
-    }
-    .colorfull-title{
-    
-    font-size: 2.5rem;
-    font-weight: 700;
-    
-    }
-    .description{
-    color: #534C64;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 30px;
-     margin-bottom: 3rem;
-    }
-    .online-img-description{
-        font-size: 1.2rem;
-    }
-    .online-games, .online-games-anytime, .games{
-        margin: 5rem  0rem;
-    }
-
 }
 
 
@@ -214,14 +185,11 @@ width: 30%;
      }
      .banner-content,.banner-img{
          width: 100%;
-        
-     }
+    }
      .banner-container{
         padding:80px;
-       
-     }
+    }
      .online-games-img-container{
-        
         grid-template-columns: repeat(2,1fr);
     
 }
@@ -238,15 +206,13 @@ width: 30%;
 .online-games-anytime-img{
     width: 100%;
     position: relative;
-    
-}
+    }
 .upper-img{
 width: 80%;
 margin: auto;
-
 }
 .upper-img img{
-    width: 100%;
+width: 100%;
 
 }
 .lower-img{
@@ -297,7 +263,7 @@ footer{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin-bottom: 3.2rem;
- }
+}
 
 
 }
