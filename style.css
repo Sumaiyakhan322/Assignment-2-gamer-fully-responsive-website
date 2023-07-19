@@ -296,6 +296,7 @@ footer{
     width: 100%;
     justify-content: center;
     margin-bottom: 3rem;
+    gap: 20px;
 }
 
 .footer-description h2{
