@@ -151,7 +151,7 @@ margin-right: 10px;
 .online-games-img-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 24px;
+    gap:2.5rem;
     max-width: 1400px;
     margin: 0px auto;
     }
@@ -193,6 +193,7 @@ width: 100%;
   text-align: center;
   border-radius: 15px;
   transition: opacity 0.3s ease;
+  border: 3px solid #F948B2;
 }
 .card-icon{
     font-size: 1.8rem;
@@ -266,6 +267,8 @@ left: 55%;
     color: #0B0223;
     font-size:1.2rem;
     font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
     }
 .games-content:hover{
     border: 1px solid #FF42A5;

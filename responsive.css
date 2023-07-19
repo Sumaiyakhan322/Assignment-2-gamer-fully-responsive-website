@@ -1,6 +1,6 @@
 /* mobile phone responsive */
 @media screen and (max-width:576px){
-    main,.banner,.games,.online-games-anytime,.nav{
+    main,.banner,.games,.nav{
         max-width:380px;
         margin: auto;
     }
@@ -96,8 +96,9 @@ width: 30%;
     text-align: center;
 }
 .online-img-description{
-    font-size: 1.2rem;
+    font-size: 1rem;
    text-align: center;
+   margin-top: 1rem;
    }
 
 .games-container{
@@ -135,9 +136,16 @@ footer{
     grid-template-columns: repeat(3,1fr);
     gap: 1.6rem;
  }
+ .footer-icons{
+    width: 80%;
+    margin:0rem auto 3rem;
+    
+ }
+
  .footer-terms{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+
  }
  .footer-description h2{
    font-size: 0.8rem;
