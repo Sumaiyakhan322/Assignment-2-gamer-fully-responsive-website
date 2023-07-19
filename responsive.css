@@ -80,26 +80,56 @@
 
 
 .games-content{
-    
     gap: 5px;
     padding: 05px;
     border-radius:20px;
     transition: all 0.8s;
-    
-    font-size:0.5rem;
-    
-    
-    
-}
+     font-size:0.5rem;
+    }
 .games-content img{
     width: 40px;
     height: 40px;
 }
 .games-content:hover{
-    
     border-radius:20px;
    
-}}
+}
+footer{
+    padding: 50px 0px;
+}
+
+.footer-content{
+    width: 70%;
+    margin: auto;
+ }
+ .footer-description,.footer-icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.6rem;
+ }
+ .footer-terms{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+ }
+ .footer-description h2{
+   font-size: 0.8rem;
+ }
+ .footer-icons i{
+    font-size:1.2rem;
+}
+.footer-terms p{
+    
+    font-size:0.8rem;
+    font-weight: 500;
+    
+}
+.footer-copy-right{
+font-size: 0.7rem;
+}
+
+
+
+}
 
 
 
