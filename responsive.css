@@ -193,5 +193,24 @@ font-size: 0.7rem;
 .games-content:hover{
     border-radius:20px;
 }
+footer{
+    padding: 50px 0px;
+}
+
+.footer-content{
+    width: 70%;
+    margin: auto;
+ }
+ .footer-description,.footer-icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin-bottom: 3.2rem;
+ }
+ .footer-terms{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 3.2rem;
+ }
 
 }
